@@ -1,0 +1,15 @@
+{
+  "name": "highrise-music-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "highrise-js-sdk": "^1.3.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "icecast-parser": "^4.0.2"
+  }
+}
